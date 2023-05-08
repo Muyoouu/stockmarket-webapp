@@ -273,7 +273,8 @@ def register():
         db.execute("INSERT INTO users (username, hash) VALUES (?, ?)", request.form.get("username"), password_hash)
 
         # Remember which user has logged in
-        session["user_id"] = db.execute("SELECT id FROM users WHERE username = ?", request.form.get("username"))
+        rows = db.execute("SELECT * FROM users WHERE username = ?", request.form.get("username"))
+        session["user_id"] = rows[0]["id"]
 
         # Redirect user to home page
         flash("You are successfully registered")
