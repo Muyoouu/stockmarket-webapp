@@ -69,7 +69,7 @@ To get a local copy up and running follow these simple example steps.
    ```bash
    git clone https://github.com/Muyoouu/stockmarket-webapp.git
    ```
-3. Install NPM packages
+3. Install pip packages
    ```bash
    pip install -r /path/to/requirements.txt
    ```
@@ -125,7 +125,6 @@ Project Link: [https://github.com/Muyoouu/stockmarket-webapp](https://github.com
 * Credits to the README file template provided by [Best-README-Template](https://github.com/othneildrew/Best-README-Template), very helpful!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
