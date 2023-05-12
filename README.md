@@ -61,6 +61,7 @@ To get a local copy up and running follow these simple example steps.
   ```bash
   apt-get install python3-pip
   ```
+* python 3.10
 
 ### Installation
 
