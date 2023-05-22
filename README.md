@@ -97,6 +97,7 @@ Also there are features user can access, several feature available currently are
 * Sell - sell stock from user portofolios (adding mock-up cash balance)
 * History - provide history of transactions done by user
 
+Video Demo:  <https://youtu.be/g4sKowr7SDI>  
 For more details, check out the web-app: [https://stocksims.pythonanywhere.com/](https://stocksims.pythonanywhere.com/)
 
 <!-- LICENSE -->
